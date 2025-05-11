@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.main-cv {
+  position: relative;
+  max-width: 700px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px;
+  margin: 0px auto;
+  background: white;
+  /* border-radius: 10px; */
+  overflow: hidden;
+  margin-top: 200px;
+  /* margin-right: 550px; */
+}
+
+.top-cv {
+  background-color: #ff802f;
+}
+
+.top-cv-info {
+  margin-left: 500px;
+  padding: 70px;
+  white-space: nowrap;
+  margin-left: 222px;
+}
+
+.top-cv-info .title {
+  margin-bottom: 10px;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: #fff;
+}
+
+.sub-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  color: #fff;
+}
+
+/* .bottom-cv {
+  position: relative;
+} */
+
+.bottom-cv-row {
+  display: flex;
+}
+
+.bcIMG {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: -10px -4px;
+}
+
+.bottom-cv-infoVSimg {
+  position: absolute;
+  padding: 30px;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  /* border: 2px solid black; */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  top: 45px;
+  left: 15px;
+  /* margin-bottom: 200px; */
+}
+
+.BC_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.BC_title-mini {
+  margin-top: 20px;
+}
+
+.BC_sub-title-mini {
+  margin-top: 5px;
+}
+
+.bottom-cv-info_left {
+  margin-top: 360px;
+}
+
+.bottom-cv-info_left {
+  margin-left: 15px;
+}
+
+.bottom-cv_title {
+  margin-top: 30px;
+  color: #fff;
+  background-color: #ff802f;
+  padding: 10px;
+  width: 200px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.title-900vs300 {
+  margin-top: 20px;
+}
+
+.title900 {
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+.title300 {
+  font-weight: 300;
+  margin-top: 5px;
+  font-size: 14px;
+  width: 250px;
+}
+
+.title300-2 {
+  font-weight: 300;
+}
+
+.bottom-cv-right {
+  margin-left: 25px;
+  margin-top: 30px;
+  padding-right: 20px;
+}
+
+.BC_sub-title-mini {
+  font-weight: 900;
+}
+
+.BC_title-mini {
+  color: gray;
+}
+
+.dot {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.dot-title-row {
+  display: flex;
+}
