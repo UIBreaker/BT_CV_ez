@@ -64,6 +64,7 @@ body {
   border-radius: 50%;
   object-fit: cover;
   margin: -10px -4px;
+  transform: scaleX(-1);
 }
 
 .bottom-cv-infoVSimg {
